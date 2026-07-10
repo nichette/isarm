@@ -1,0 +1,36 @@
+{
+  "raw_cols": [
+    "tenure_days",
+    "days_since_promotion",
+    "overtime_hours_90d",
+    "total_leaves_365d",
+    "avg_leave_duration_days",
+    "certification_level",
+    "role_seniority_band",
+    "shift_preference_idx",
+    "safety_training_level",
+    "mentorship_tier",
+    "primary_skill_cluster",
+    "assignment_zone",
+    "employment_type",
+    "department_unit",
+    "education_band",
+    "leave_frequency_lambda",
+    "leave_duration_variance",
+    "cross_training_entropy",
+    "performance_trend_slope",
+    "overtime_trend_slope",
+    "error_rate_90d",
+    "peer_collab_score",
+    "worker_id",
+    "is_anomaly",
+    "anomaly_type"
+  ],
+  "processed_dim": 45,
+  "anomaly_map": {
+    "0": "Normal",
+    "1": "Silent_Quitter",
+    "2": "SPOF",
+    "3": "Burnout"
+  }
+}

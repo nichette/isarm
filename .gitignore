@@ -1,0 +1,113 @@
+Python ###
+
+__pycache__/
+
+.py[cod]
+
+$py.class
+
+.so
+
+.pytest_cache/
+
+.coverage
+
+htmlcov/
+
+.tox/
+
+.mypy_cache/
+
+.ruff_cache/
+
+.hypothesis/
+Virtual Environments ###
+
+.venv/
+
+venv/
+
+env/
+
+ENV/
+
+.venv
+Environment & Secrets ###
+
+.env
+
+.env.local
+
+.env..local
+
+.pem
+
+.key
+
+.crt
+Data & Artifacts (Large/Binary) ###
+Regenerate via: python src/generate_data.py && python src/train_autoencoder.py && python src/train_rl.py
+
+data/raw/
+
+data/processed/
+
+data/mock_telemetry/
+
+models/.pth
+
+models/.joblib
+
+models/.npz
+
+models/scalers/
+
+outputs/flight_risk_scores.csv
+
+outputs/latent_vectors.npy
+
+outputs/plots/
+Jupyter / Notebooks ###
+
+.ipynb_checkpoints/
+
+.ipynb~
+IDE / Editors ###
+
+.vscode/
+
+.idea/
+
+.swp
+
+.swo
+
+~
+
+.DS_Store
+
+Thumbs.db
+Docker / Build ###
+
+.docker/
+
+docker-compose.override.yml
+
+.tar.gz
+Logs ###
+
+*.log
+
+logs/
+
+wandb/
+
+mlruns/
+Streamlit ###
+
+.streamlit/secrets.toml
+OS ###
+
+ehthumbs.db
+
+Desktop.ini
